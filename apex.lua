@@ -1,33 +1,22 @@
 local Players = game:GetService("Players")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
 
 local LocalPlayer = Players.LocalPlayer
 
--- Wait until knit/remotes are ready
+-- Wait until Knit & SprintController are available
 local Knit
 repeat
-    local success, result = pcall(function()
-        return require(LocalPlayer.PlayerScripts.TS.knit)
+    pcall(function()
+        Knit = debug.getupvalue(require(LocalPlayer.PlayerScripts.TS.knit).setup, 9)
     end)
-    if success then
-        Knit = result
-    else
-        task.wait()
-    end
-until Knit
-
--- Grab SprintController
-local SprintController
-repeat
     task.wait()
-    SprintController = Knit.Controllers and Knit.Controllers.SprintController
-until SprintController
+until Knit and Knit.Controllers and Knit.Controllers.SprintController
 
--- Auto sprint loop
-task.spawn(function()
-    while task.wait(0.5) do
-        if SprintController then
-            SprintController:startSprinting()
-        end
+local SprintController = Knit.Controllers.SprintController
+
+-- Force sprint every frame
+RunService.Heartbeat:Connect(function()
+    if SprintController then
+        SprintController:startSprinting()
     end
 end)
