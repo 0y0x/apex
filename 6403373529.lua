@@ -62,11 +62,11 @@ local TextButton_17 = Instance.new("TextButton")
 local TextLabel_22 = Instance.new("TextLabel")
 local TextButton_18 = Instance.new("TextButton")
 local TextLabel_23 = Instance.new("TextLabel")
-local TextButton_19 = Instance.new("TextButton")
-local TextLabel_24 = Instance.new("TextLabel")
 local World = Instance.new("TextButton")
-local TextButton_20 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
 local Frame_6 = Instance.new("Frame")
+local TextButton_20 = Instance.new("TextButton")
+local TextLabel_24 = Instance.new("TextLabel")
 local TextButton_21 = Instance.new("TextButton")
 local TextLabel_25 = Instance.new("TextLabel")
 local TextButton_22 = Instance.new("TextButton")
@@ -75,27 +75,25 @@ local TextButton_23 = Instance.new("TextButton")
 local TextLabel_27 = Instance.new("TextLabel")
 local TextButton_24 = Instance.new("TextButton")
 local TextLabel_28 = Instance.new("TextLabel")
+local TextBox_2 = Instance.new("TextBox")
 local TextButton_25 = Instance.new("TextButton")
 local TextLabel_29 = Instance.new("TextLabel")
-local TextBox_2 = Instance.new("TextBox")
-local TextButton_26 = Instance.new("TextButton")
-local TextLabel_30 = Instance.new("TextLabel")
 local combat = Instance.new("TextButton")
-local TextButton_27 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
 local Frame_7 = Instance.new("Frame")
+local TextButton_27 = Instance.new("TextButton")
+local TextLabel_30 = Instance.new("TextLabel")
 local TextButton_28 = Instance.new("TextButton")
 local TextLabel_31 = Instance.new("TextLabel")
+local TextBox_3 = Instance.new("TextBox")
 local TextButton_29 = Instance.new("TextButton")
 local TextLabel_32 = Instance.new("TextLabel")
-local TextBox_3 = Instance.new("TextBox")
 local TextButton_30 = Instance.new("TextButton")
 local TextLabel_33 = Instance.new("TextLabel")
 local TextButton_31 = Instance.new("TextButton")
 local TextLabel_34 = Instance.new("TextLabel")
 local TextButton_32 = Instance.new("TextButton")
 local TextLabel_35 = Instance.new("TextLabel")
-local TextButton_33 = Instance.new("TextButton")
-local TextLabel_36 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -245,10 +243,11 @@ hp.TextSize = 25.000
 hp.TextWrapped = true
 
 ImageButton.Parent = _6403373529
+ImageButton.AnchorPoint = Vector2.new(1, 1)
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
-ImageButton.Position = UDim2.new(0.977023423, 0, 0.960678995, 0)
+ImageButton.Position = UDim2.new(0.976798117, 0, 0.956597209, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Image = "rbxassetid://17735933558"
 
@@ -731,7 +730,7 @@ TextButton_15.Parent = Frame_5
 TextButton_15.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_15.BorderSizePixel = 0
-TextButton_15.Position = UDim2.new(0, 0, 0.495999992, 0)
+TextButton_15.Position = UDim2.new(0, 0, 0.0720544085, 0)
 TextButton_15.Size = UDim2.new(0, 225, 0, 51)
 TextButton_15.Font = Enum.Font.SourceSans
 TextButton_15.Text = ""
@@ -746,7 +745,7 @@ TextLabel_20.BorderSizePixel = 0
 TextLabel_20.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
 TextLabel_20.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_20.Font = Enum.Font.SourceSans
-TextLabel_20.Text = "Sussy"
+TextLabel_20.Text = "PlayerTags"
 TextLabel_20.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_20.TextSize = 20.000
 TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
@@ -755,7 +754,7 @@ TextButton_16.Parent = Frame_5
 TextButton_16.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.BorderSizePixel = 0
-TextButton_16.Position = UDim2.new(0, 0, 0.0720544085, 0)
+TextButton_16.Position = UDim2.new(0, 0, 0.142000005, 0)
 TextButton_16.Size = UDim2.new(0, 225, 0, 51)
 TextButton_16.Font = Enum.Font.SourceSans
 TextButton_16.Text = ""
@@ -767,10 +766,10 @@ TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_21.BackgroundTransparency = 1.000
 TextLabel_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_21.BorderSizePixel = 0
-TextLabel_21.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
+TextLabel_21.Position = UDim2.new(0.0534806326, 0, 0.316673726, 0)
 TextLabel_21.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_21.Font = Enum.Font.SourceSans
-TextLabel_21.Text = "PlayerTags"
+TextLabel_21.Text = "Cape"
 TextLabel_21.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_21.TextSize = 20.000
 TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
@@ -779,7 +778,7 @@ TextButton_17.Parent = Frame_5
 TextButton_17.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_17.BorderSizePixel = 0
-TextButton_17.Position = UDim2.new(0, 0, 0.142000005, 0)
+TextButton_17.Position = UDim2.new(0, 0, 0.213, 0)
 TextButton_17.Size = UDim2.new(0, 225, 0, 51)
 TextButton_17.Font = Enum.Font.SourceSans
 TextButton_17.Text = ""
@@ -791,10 +790,10 @@ TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_22.BackgroundTransparency = 1.000
 TextLabel_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_22.BorderSizePixel = 0
-TextLabel_22.Position = UDim2.new(0.0534806326, 0, 0.316673726, 0)
+TextLabel_22.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
 TextLabel_22.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_22.Font = Enum.Font.SourceSans
-TextLabel_22.Text = "Cape"
+TextLabel_22.Text = "TextGui"
 TextLabel_22.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_22.TextSize = 20.000
 TextLabel_22.TextXAlignment = Enum.TextXAlignment.Left
@@ -803,51 +802,27 @@ TextButton_18.Parent = Frame_5
 TextButton_18.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_18.BorderSizePixel = 0
-TextButton_18.Position = UDim2.new(0, 0, 0.213, 0)
+TextButton_18.Position = UDim2.new(0, 0, 0.425000012, 0)
 TextButton_18.Size = UDim2.new(0, 225, 0, 51)
+TextButton_18.ZIndex = 0
 TextButton_18.Font = Enum.Font.SourceSans
 TextButton_18.Text = ""
 TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_18.TextSize = 14.000
+TextButton_18.TextSize = 100.000
 
 TextLabel_23.Parent = TextButton_18
 TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_23.BackgroundTransparency = 1.000
 TextLabel_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_23.BorderSizePixel = 0
-TextLabel_23.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
-TextLabel_23.Size = UDim2.new(0, 200, 0, 18)
+TextLabel_23.Position = UDim2.new(0.0529324003, 0, 0.183739752, 0)
+TextLabel_23.Size = UDim2.new(0, 200, 0, 32)
 TextLabel_23.Font = Enum.Font.SourceSans
-TextLabel_23.Text = "TextGui"
+TextLabel_23.Text = "BreadCrumbs"
 TextLabel_23.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_23.TextSize = 20.000
+TextLabel_23.TextWrapped = true
 TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
-
-TextButton_19.Parent = Frame_5
-TextButton_19.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_19.BorderSizePixel = 0
-TextButton_19.Position = UDim2.new(0, 0, 0.425000012, 0)
-TextButton_19.Size = UDim2.new(0, 225, 0, 51)
-TextButton_19.ZIndex = 0
-TextButton_19.Font = Enum.Font.SourceSans
-TextButton_19.Text = ""
-TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_19.TextSize = 100.000
-
-TextLabel_24.Parent = TextButton_19
-TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_24.BackgroundTransparency = 1.000
-TextLabel_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_24.BorderSizePixel = 0
-TextLabel_24.Position = UDim2.new(0.0529324003, 0, 0.183739752, 0)
-TextLabel_24.Size = UDim2.new(0, 200, 0, 32)
-TextLabel_24.Font = Enum.Font.SourceSans
-TextLabel_24.Text = "BreadCrumbs"
-TextLabel_24.TextColor3 = Color3.fromRGB(197, 197, 197)
-TextLabel_24.TextSize = 20.000
-TextLabel_24.TextWrapped = true
-TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
 
 World.Name = "World"
 World.Parent = mainmod
@@ -862,54 +837,80 @@ World.TextColor3 = Color3.fromRGB(197, 197, 197)
 World.TextSize = 24.000
 World.TextXAlignment = Enum.TextXAlignment.Left
 
-TextButton_20.Parent = World
-TextButton_20.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_20.BorderSizePixel = 0
-TextButton_20.Position = UDim2.new(4.4000001, 0, -3.66000009, 0)
-TextButton_20.Size = UDim2.new(0, 225, 0, 50)
-TextButton_20.Font = Enum.Font.SourceSans
-TextButton_20.Text = "World   									˄"
-TextButton_20.TextColor3 = Color3.fromRGB(197, 197, 197)
-TextButton_20.TextSize = 24.000
-TextButton_20.TextXAlignment = Enum.TextXAlignment.Left
+TextButton_19.Parent = World
+TextButton_19.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Position = UDim2.new(4.4000001, 0, -3.66000009, 0)
+TextButton_19.Size = UDim2.new(0, 225, 0, 50)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "World   									˄"
+TextButton_19.TextColor3 = Color3.fromRGB(197, 197, 197)
+TextButton_19.TextSize = 24.000
+TextButton_19.TextXAlignment = Enum.TextXAlignment.Left
 
-Frame_6.Parent = TextButton_20
+Frame_6.Parent = TextButton_19
 Frame_6.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 Frame_6.BorderColor3 = Color3.fromRGB(200, 200, 200)
 Frame_6.BorderSizePixel = 0
 Frame_6.Position = UDim2.new(0, 0, 0.849217534, 0)
 Frame_6.Size = UDim2.new(0, 225, 0, 735)
 
+TextButton_20.Parent = Frame_6
+TextButton_20.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Position = UDim2.new(0, 0, 0.142534524, 0)
+TextButton_20.Size = UDim2.new(0, 225, 0, 51)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = ""
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextSize = 14.000
+
+TextLabel_24.Parent = TextButton_20
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
+TextLabel_24.Size = UDim2.new(0, 200, 0, 18)
+TextLabel_24.Font = Enum.Font.SourceSans
+TextLabel_24.Text = "Anti-Void"
+TextLabel_24.TextColor3 = Color3.fromRGB(197, 197, 197)
+TextLabel_24.TextSize = 20.000
+TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
+
 TextButton_21.Parent = Frame_6
 TextButton_21.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_21.BorderSizePixel = 0
-TextButton_21.Position = UDim2.new(0, 0, 0.142534524, 0)
+TextButton_21.Position = UDim2.new(0, 0, 0.0717210844, 0)
 TextButton_21.Size = UDim2.new(0, 225, 0, 51)
+TextButton_21.ZIndex = 0
 TextButton_21.Font = Enum.Font.SourceSans
 TextButton_21.Text = ""
 TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_21.TextSize = 14.000
+TextButton_21.TextSize = 100.000
 
 TextLabel_25.Parent = TextButton_21
 TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_25.BackgroundTransparency = 1.000
 TextLabel_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_25.BorderSizePixel = 0
-TextLabel_25.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
-TextLabel_25.Size = UDim2.new(0, 200, 0, 18)
+TextLabel_25.Position = UDim2.new(0.0529324003, 0, 0.183739752, 0)
+TextLabel_25.Size = UDim2.new(0, 200, 0, 32)
 TextLabel_25.Font = Enum.Font.SourceSans
-TextLabel_25.Text = "Anti-Void"
+TextLabel_25.Text = "SafePort"
 TextLabel_25.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_25.TextSize = 20.000
+TextLabel_25.TextWrapped = true
 TextLabel_25.TextXAlignment = Enum.TextXAlignment.Left
 
 TextButton_22.Parent = Frame_6
 TextButton_22.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_22.BorderSizePixel = 0
-TextButton_22.Position = UDim2.new(0, 0, 0.0717210844, 0)
+TextButton_22.Position = UDim2.new(0, 0, 0.00100000005, 0)
 TextButton_22.Size = UDim2.new(0, 225, 0, 51)
 TextButton_22.ZIndex = 0
 TextButton_22.Font = Enum.Font.SourceSans
@@ -925,7 +926,7 @@ TextLabel_26.BorderSizePixel = 0
 TextLabel_26.Position = UDim2.new(0.0529324003, 0, 0.183739752, 0)
 TextLabel_26.Size = UDim2.new(0, 200, 0, 32)
 TextLabel_26.Font = Enum.Font.SourceSans
-TextLabel_26.Text = "SafePort"
+TextLabel_26.Text = "Gravity"
 TextLabel_26.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_26.TextSize = 20.000
 TextLabel_26.TextWrapped = true
@@ -935,33 +936,32 @@ TextButton_23.Parent = Frame_6
 TextButton_23.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_23.BorderSizePixel = 0
-TextButton_23.Position = UDim2.new(0, 0, 0.00100000005, 0)
+TextButton_23.Position = UDim2.new(0, 0, 0.213, 0)
 TextButton_23.Size = UDim2.new(0, 225, 0, 51)
 TextButton_23.ZIndex = 0
 TextButton_23.Font = Enum.Font.SourceSans
 TextButton_23.Text = ""
 TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_23.TextSize = 100.000
+TextButton_23.TextSize = 14.000
 
 TextLabel_27.Parent = TextButton_23
 TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_27.BackgroundTransparency = 1.000
 TextLabel_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_27.BorderSizePixel = 0
-TextLabel_27.Position = UDim2.new(0.0529324003, 0, 0.183739752, 0)
-TextLabel_27.Size = UDim2.new(0, 200, 0, 32)
+TextLabel_27.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
+TextLabel_27.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_27.Font = Enum.Font.SourceSans
-TextLabel_27.Text = "Gravity"
+TextLabel_27.Text = "Anti-Afk"
 TextLabel_27.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_27.TextSize = 20.000
-TextLabel_27.TextWrapped = true
 TextLabel_27.TextXAlignment = Enum.TextXAlignment.Left
 
 TextButton_24.Parent = Frame_6
 TextButton_24.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_24.BorderSizePixel = 0
-TextButton_24.Position = UDim2.new(0, 0, 0.213, 0)
+TextButton_24.Position = UDim2.new(0, 0, 0.284000009, 0)
 TextButton_24.Size = UDim2.new(0, 225, 0, 51)
 TextButton_24.ZIndex = 0
 TextButton_24.Font = Enum.Font.SourceSans
@@ -977,16 +977,30 @@ TextLabel_28.BorderSizePixel = 0
 TextLabel_28.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
 TextLabel_28.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_28.Font = Enum.Font.SourceSans
-TextLabel_28.Text = "Anti-Afk"
+TextLabel_28.Text = "FOV"
 TextLabel_28.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_28.TextSize = 20.000
 TextLabel_28.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox_2.Parent = TextButton_24
+TextBox_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextBox_2.BorderColor3 = Color3.fromRGB(200, 200, 200)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.742369235, 0, 0.220528394, 0)
+TextBox_2.Size = UDim2.new(0, 44, 0, 24)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+TextBox_2.TextWrapped = true
 
 TextButton_25.Parent = Frame_6
 TextButton_25.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_25.BorderSizePixel = 0
-TextButton_25.Position = UDim2.new(0, 0, 0.284000009, 0)
+TextButton_25.Position = UDim2.new(0, 0, 0.354999989, 0)
 TextButton_25.Size = UDim2.new(0, 225, 0, 51)
 TextButton_25.ZIndex = 0
 TextButton_25.Font = Enum.Font.SourceSans
@@ -1002,49 +1016,10 @@ TextLabel_29.BorderSizePixel = 0
 TextLabel_29.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
 TextLabel_29.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_29.Font = Enum.Font.SourceSans
-TextLabel_29.Text = "FOV"
+TextLabel_29.Text = "Spider"
 TextLabel_29.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_29.TextSize = 20.000
 TextLabel_29.TextXAlignment = Enum.TextXAlignment.Left
-
-TextBox_2.Parent = TextButton_25
-TextBox_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-TextBox_2.BorderColor3 = Color3.fromRGB(200, 200, 200)
-TextBox_2.BorderSizePixel = 0
-TextBox_2.Position = UDim2.new(0.742369235, 0, 0.220528394, 0)
-TextBox_2.Size = UDim2.new(0, 44, 0, 24)
-TextBox_2.Font = Enum.Font.SourceSans
-TextBox_2.Text = ""
-TextBox_2.TextColor3 = Color3.fromRGB(200, 200, 200)
-TextBox_2.TextScaled = true
-TextBox_2.TextSize = 14.000
-TextBox_2.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
-TextBox_2.TextWrapped = true
-
-TextButton_26.Parent = Frame_6
-TextButton_26.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_26.BorderSizePixel = 0
-TextButton_26.Position = UDim2.new(0, 0, 0.354999989, 0)
-TextButton_26.Size = UDim2.new(0, 225, 0, 51)
-TextButton_26.ZIndex = 0
-TextButton_26.Font = Enum.Font.SourceSans
-TextButton_26.Text = ""
-TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_26.TextSize = 14.000
-
-TextLabel_30.Parent = TextButton_26
-TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_30.BackgroundTransparency = 1.000
-TextLabel_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_30.BorderSizePixel = 0
-TextLabel_30.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
-TextLabel_30.Size = UDim2.new(0, 200, 0, 18)
-TextLabel_30.Font = Enum.Font.SourceSans
-TextLabel_30.Text = "Spider"
-TextLabel_30.TextColor3 = Color3.fromRGB(197, 197, 197)
-TextLabel_30.TextSize = 20.000
-TextLabel_30.TextXAlignment = Enum.TextXAlignment.Left
 
 combat.Name = "combat"
 combat.Parent = mainmod
@@ -1059,31 +1034,56 @@ combat.TextColor3 = Color3.fromRGB(197, 197, 197)
 combat.TextSize = 24.000
 combat.TextXAlignment = Enum.TextXAlignment.Left
 
-TextButton_27.Parent = combat
-TextButton_27.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_27.BorderSizePixel = 0
-TextButton_27.Position = UDim2.new(1.10000002, 0, -0.660000026, 0)
-TextButton_27.Size = UDim2.new(0, 225, 0, 50)
-TextButton_27.Font = Enum.Font.SourceSans
-TextButton_27.Text = "Combat									˄"
-TextButton_27.TextColor3 = Color3.fromRGB(197, 197, 197)
-TextButton_27.TextSize = 24.000
-TextButton_27.TextXAlignment = Enum.TextXAlignment.Left
+TextButton_26.Parent = combat
+TextButton_26.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BorderSizePixel = 0
+TextButton_26.Position = UDim2.new(1.10000002, 0, -0.660000026, 0)
+TextButton_26.Size = UDim2.new(0, 225, 0, 50)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "Combat									˄"
+TextButton_26.TextColor3 = Color3.fromRGB(197, 197, 197)
+TextButton_26.TextSize = 24.000
+TextButton_26.TextXAlignment = Enum.TextXAlignment.Left
 
-Frame_7.Parent = TextButton_27
+Frame_7.Parent = TextButton_26
 Frame_7.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_7.BorderSizePixel = 0
 Frame_7.Position = UDim2.new(0, 0, 0.831136167, 0)
 Frame_7.Size = UDim2.new(0, 225, 0, 482)
 
+TextButton_27.Parent = Frame_7
+TextButton_27.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BorderSizePixel = 0
+TextButton_27.Position = UDim2.new(0, 0, 0.109999999, 0)
+TextButton_27.Size = UDim2.new(0, 225, 0, 51)
+TextButton_27.Font = Enum.Font.SourceSans
+TextButton_27.Text = ""
+TextButton_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_27.TextSize = 14.000
+
+TextLabel_30.Parent = TextButton_27
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_30.BorderSizePixel = 0
+TextLabel_30.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
+TextLabel_30.Size = UDim2.new(0, 200, 0, 18)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = "AutoClicker"
+TextLabel_30.TextColor3 = Color3.fromRGB(197, 197, 197)
+TextLabel_30.TextSize = 20.000
+TextLabel_30.TextXAlignment = Enum.TextXAlignment.Left
+
 TextButton_28.Parent = Frame_7
 TextButton_28.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_28.BorderSizePixel = 0
-TextButton_28.Position = UDim2.new(0, 0, 0.109999999, 0)
+TextButton_28.Position = UDim2.new(0, 0, 0.54070121, 0)
 TextButton_28.Size = UDim2.new(0, 225, 0, 51)
+TextButton_28.ZIndex = 0
 TextButton_28.Font = Enum.Font.SourceSans
 TextButton_28.Text = ""
 TextButton_28.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -1097,37 +1097,12 @@ TextLabel_31.BorderSizePixel = 0
 TextLabel_31.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
 TextLabel_31.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_31.Font = Enum.Font.SourceSans
-TextLabel_31.Text = "AutoClicker"
+TextLabel_31.Text = "AimAssist"
 TextLabel_31.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_31.TextSize = 20.000
 TextLabel_31.TextXAlignment = Enum.TextXAlignment.Left
 
-TextButton_29.Parent = Frame_7
-TextButton_29.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_29.BorderSizePixel = 0
-TextButton_29.Position = UDim2.new(0, 0, 0.54070121, 0)
-TextButton_29.Size = UDim2.new(0, 225, 0, 51)
-TextButton_29.ZIndex = 0
-TextButton_29.Font = Enum.Font.SourceSans
-TextButton_29.Text = ""
-TextButton_29.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_29.TextSize = 14.000
-
-TextLabel_32.Parent = TextButton_29
-TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_32.BackgroundTransparency = 1.000
-TextLabel_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_32.BorderSizePixel = 0
-TextLabel_32.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
-TextLabel_32.Size = UDim2.new(0, 200, 0, 18)
-TextLabel_32.Font = Enum.Font.SourceSans
-TextLabel_32.Text = "AimAssist"
-TextLabel_32.TextColor3 = Color3.fromRGB(197, 197, 197)
-TextLabel_32.TextSize = 20.000
-TextLabel_32.TextXAlignment = Enum.TextXAlignment.Left
-
-TextBox_3.Parent = TextButton_29
+TextBox_3.Parent = TextButton_28
 TextBox_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 TextBox_3.BorderColor3 = Color3.fromRGB(200, 200, 200)
 TextBox_3.BorderSizePixel = 0
@@ -1141,61 +1116,85 @@ TextBox_3.TextSize = 14.000
 TextBox_3.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
 TextBox_3.TextWrapped = true
 
+TextButton_29.Parent = Frame_7
+TextButton_29.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.BorderSizePixel = 0
+TextButton_29.Position = UDim2.new(0, 0, 0.317000002, 4)
+TextButton_29.Size = UDim2.new(0, 225, 0, 51)
+TextButton_29.Font = Enum.Font.SourceSans
+TextButton_29.Text = ""
+TextButton_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_29.TextSize = 14.000
+
+TextLabel_32.Parent = TextButton_29
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_32.BorderSizePixel = 0
+TextLabel_32.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
+TextLabel_32.Size = UDim2.new(0, 200, 0, 18)
+TextLabel_32.Font = Enum.Font.SourceSans
+TextLabel_32.Text = "Velocity"
+TextLabel_32.TextColor3 = Color3.fromRGB(197, 197, 197)
+TextLabel_32.TextSize = 20.000
+TextLabel_32.TextXAlignment = Enum.TextXAlignment.Left
+
 TextButton_30.Parent = Frame_7
 TextButton_30.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_30.BorderSizePixel = 0
-TextButton_30.Position = UDim2.new(0, 0, 0.317000002, 4)
+TextButton_30.Position = UDim2.new(0, 0, 0.00100000005, 0)
 TextButton_30.Size = UDim2.new(0, 225, 0, 51)
+TextButton_30.ZIndex = 0
 TextButton_30.Font = Enum.Font.SourceSans
 TextButton_30.Text = ""
 TextButton_30.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_30.TextSize = 14.000
+TextButton_30.TextSize = 100.000
 
 TextLabel_33.Parent = TextButton_30
 TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_33.BackgroundTransparency = 1.000
 TextLabel_33.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_33.BorderSizePixel = 0
-TextLabel_33.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
-TextLabel_33.Size = UDim2.new(0, 200, 0, 18)
+TextLabel_33.Position = UDim2.new(0.0529324003, 0, 0.183739752, 0)
+TextLabel_33.Size = UDim2.new(0, 200, 0, 32)
 TextLabel_33.Font = Enum.Font.SourceSans
-TextLabel_33.Text = "Velocity"
+TextLabel_33.Text = "KillAura"
 TextLabel_33.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_33.TextSize = 20.000
+TextLabel_33.TextWrapped = true
 TextLabel_33.TextXAlignment = Enum.TextXAlignment.Left
 
 TextButton_31.Parent = Frame_7
 TextButton_31.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_31.BorderSizePixel = 0
-TextButton_31.Position = UDim2.new(0, 0, 0.00100000005, 0)
+TextButton_31.Position = UDim2.new(0, 0, 0.217999995, 0)
 TextButton_31.Size = UDim2.new(0, 225, 0, 51)
-TextButton_31.ZIndex = 0
 TextButton_31.Font = Enum.Font.SourceSans
 TextButton_31.Text = ""
 TextButton_31.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_31.TextSize = 100.000
+TextButton_31.TextSize = 14.000
 
 TextLabel_34.Parent = TextButton_31
 TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_34.BackgroundTransparency = 1.000
 TextLabel_34.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_34.BorderSizePixel = 0
-TextLabel_34.Position = UDim2.new(0.0529324003, 0, 0.183739752, 0)
-TextLabel_34.Size = UDim2.new(0, 200, 0, 32)
+TextLabel_34.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
+TextLabel_34.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_34.Font = Enum.Font.SourceSans
-TextLabel_34.Text = "KillAura"
+TextLabel_34.Text = "Auto Abilty"
 TextLabel_34.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_34.TextSize = 20.000
-TextLabel_34.TextWrapped = true
 TextLabel_34.TextXAlignment = Enum.TextXAlignment.Left
 
 TextButton_32.Parent = Frame_7
 TextButton_32.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_32.BorderSizePixel = 0
-TextButton_32.Position = UDim2.new(0, 0, 0.217999995, 0)
+TextButton_32.Position = UDim2.new(0, 0, 0.42899999, 2)
 TextButton_32.Size = UDim2.new(0, 225, 0, 51)
 TextButton_32.Font = Enum.Font.SourceSans
 TextButton_32.Text = ""
@@ -1210,38 +1209,138 @@ TextLabel_35.BorderSizePixel = 0
 TextLabel_35.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
 TextLabel_35.Size = UDim2.new(0, 200, 0, 18)
 TextLabel_35.Font = Enum.Font.SourceSans
-TextLabel_35.Text = "Auto Abilty"
+TextLabel_35.Text = "TriggerBot"
 TextLabel_35.TextColor3 = Color3.fromRGB(197, 197, 197)
 TextLabel_35.TextSize = 20.000
 TextLabel_35.TextXAlignment = Enum.TextXAlignment.Left
 
-TextButton_33.Parent = Frame_7
-TextButton_33.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_33.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_33.BorderSizePixel = 0
-TextButton_33.Position = UDim2.new(0, 0, 0.42899999, 2)
-TextButton_33.Size = UDim2.new(0, 225, 0, 51)
-TextButton_33.Font = Enum.Font.SourceSans
-TextButton_33.Text = ""
-TextButton_33.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_33.TextSize = 14.000
-
-TextLabel_36.Parent = TextButton_33
-TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_36.BackgroundTransparency = 1.000
-TextLabel_36.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_36.BorderSizePixel = 0
-TextLabel_36.Position = UDim2.new(0.0490361638, 0, 0.316673726, 0)
-TextLabel_36.Size = UDim2.new(0, 200, 0, 18)
-TextLabel_36.Font = Enum.Font.SourceSans
-TextLabel_36.Text = "TriggerBot"
-TextLabel_36.TextColor3 = Color3.fromRGB(197, 197, 197)
-TextLabel_36.TextSize = 20.000
-TextLabel_36.TextXAlignment = Enum.TextXAlignment.Left
-
 -- Scripts:
 
-local function SGYV_fake_script() -- ses.LocalScript 
+local function HRCHX_fake_script() -- _6403373529.verifyer 
+	local script = Instance.new('LocalScript', _6403373529)
+
+	local detectorprop = Instance.new("Folder")
+	detectorprop.Parent = game.Players.LocalPlayer
+	detectorprop.Name = "detectorprop"
+end
+coroutine.wrap(HRCHX_fake_script)()
+local function LMAM_fake_script() -- _6403373529.priv 
+	local script = Instance.new('LocalScript', _6403373529)
+
+	local TextChatService = game:GetService("TextChatService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local gui = script.Parent
+	
+	TextChatService.OnIncomingMessage = function(message)
+		if message.TextSource and message.TextSource.UserId == LocalPlayer.UserId then
+			local msg = message.Text:lower()
+			if msg == ";byfron defualt" then
+				print("hm... " .. LocalPlayer.Name)
+				gui.mainmod.Dev.Visible = true
+				gui.mainmod.misc.Visible = true
+			end
+		end
+	end
+	
+end
+coroutine.wrap(LMAM_fake_script)()
+local function NKKLC_fake_script() -- _6403373529.injected 
+	local script = Instance.new('LocalScript', _6403373529)
+
+	local StarterGui = game:GetService("StarterGui")
+	
+	if script.Parent.Parent["6403373529"].Enabled == true then
+		pcall(function()
+			StarterGui:SetCore("SendNotification", {
+				Title = "APEX",
+				Text = "Apex has been injected!",
+				Duration = 5
+			})
+		end)
+		wait(0.1)
+	end
+end
+coroutine.wrap(NKKLC_fake_script)()
+local function CPKFWNH_fake_script() -- _6403373529.bind 
+	local script = Instance.new('LocalScript', _6403373529)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	
+	local gui = script.Parent.mainmod -- your UI here
+	local forceMouse = false
+	
+	-- Function to unlock and show mouse
+	local function unlockMouse()
+		UserInputService.MouseIconEnabled = true
+		UserInputService.MouseBehavior = Enum.MouseBehavior.Default
+	end
+	
+	-- RunService loop to constantly force mouse settings
+	RunService.RenderStepped:Connect(function()
+		if forceMouse and gui.Visible then
+			unlockMouse()
+		end
+	end)
+	
+	-- Toggle GUI + mouse unlock on LeftAlt
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if not gameProcessed and input.KeyCode == Enum.KeyCode.LeftAlt then
+			gui.Visible = not gui.Visible
+			forceMouse = gui.Visible
+			if forceMouse then
+				unlockMouse()
+			end
+		end
+	end)
+	
+	-- Reset mouse when character respawns
+	player.CharacterAdded:Connect(function()
+		wait(1)
+		if forceMouse then
+			unlockMouse()
+		end
+	end)
+	
+end
+coroutine.wrap(CPKFWNH_fake_script)()
+local function PDGW_fake_script() -- _6403373529.alltop 
+	local script = Instance.new('LocalScript', _6403373529)
+
+	local gui = script.Parent -- Put this script inside your ScreenGui
+	
+	-- Apply global ZIndex and visibility settings
+	local function applyTopLayerSettings(uiElement)
+		if uiElement:IsA("GuiObject") then
+			uiElement.ZIndex = 999999
+			if uiElement:IsA("TextLabel") or uiElement:IsA("TextButton") or uiElement:IsA("TextBox") then
+				uiElement.TextTransparency = 0
+			end
+			if uiElement:IsA("ImageLabel") or uiElement:IsA("ImageButton") then
+				uiElement.ImageTransparency = 0
+			end
+		end
+	end
+	
+	-- Apply to all descendants
+	for _, item in ipairs(gui:GetDescendants()) do
+		applyTopLayerSettings(item)
+	end
+	
+	-- Force top-level GUI behavior
+	gui.ResetOnSpawn = false
+	gui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+	gui.DisplayOrder = 999999
+	gui.IgnoreGuiInset = true
+	
+end
+coroutine.wrap(PDGW_fake_script)()
+local function VICVC_fake_script() -- ses.LocalScript 
 	local script = Instance.new('LocalScript', ses)
 
 	local edge = Instance.new("UICorner")
@@ -1250,8 +1349,8 @@ local function SGYV_fake_script() -- ses.LocalScript
 	local uifix = Instance.new("UIStroke")
 	uifix.Parent = script.Parent
 end
-coroutine.wrap(SGYV_fake_script)()
-local function MIEGTO_fake_script() -- ses.LocalScript 
+coroutine.wrap(VICVC_fake_script)()
+local function BPFCOVY_fake_script() -- ses.LocalScript 
 	local script = Instance.new('LocalScript', ses)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -1264,16 +1363,16 @@ local function MIEGTO_fake_script() -- ses.LocalScript
 		counter = counter + 0.001
 	end
 end
-coroutine.wrap(MIEGTO_fake_script)()
-local function QIFUJH_fake_script() -- Frame.LocalScript 
+coroutine.wrap(BPFCOVY_fake_script)()
+local function TWVDWNM_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local edge = Instance.new("UICorner")
 	edge.Parent = script.Parent
 	edge.CornerRadius = UDim.new(0, 2)
 end
-coroutine.wrap(QIFUJH_fake_script)()
-local function JBXL_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(TWVDWNM_fake_script)()
+local function HGQCJ_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local Players = game:GetService("Players")
@@ -1299,8 +1398,8 @@ local function JBXL_fake_script() -- TextLabel_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(JBXL_fake_script)()
-local function KUDAWGU_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(HGQCJ_fake_script)()
+local function QZAFLXA_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local Players = game:GetService("Players")
@@ -1346,8 +1445,8 @@ local function KUDAWGU_fake_script() -- TextLabel_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(KUDAWGU_fake_script)()
-local function AHSWD_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(QZAFLXA_fake_script)()
+local function JMHTO_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	local Players = game:GetService("Players")
@@ -1373,8 +1472,8 @@ local function AHSWD_fake_script() -- TextLabel_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(AHSWD_fake_script)()
-local function LOPIFW_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(JMHTO_fake_script)()
+local function LRLN_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local label = script.Parent
@@ -1394,8 +1493,8 @@ local function LOPIFW_fake_script() -- TextLabel_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(LOPIFW_fake_script)()
-local function YFBML_fake_script() -- TextLabel_6.LocalScript 
+coroutine.wrap(LRLN_fake_script)()
+local function AKRHGZE_fake_script() -- TextLabel_6.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local label = script.Parent
@@ -1417,16 +1516,16 @@ local function YFBML_fake_script() -- TextLabel_6.LocalScript
 	end)
 	
 end
-coroutine.wrap(YFBML_fake_script)()
-local function PYUSJC_fake_script() -- TextLabel_7.LocalScript 
+coroutine.wrap(AKRHGZE_fake_script)()
+local function BJRRAR_fake_script() -- TextLabel_7.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_7)
 
 	script.Parent.Font = Enum.Font.Jura
 	script.Parent.Font = Enum.Font.GothamBlack
 	
 end
-coroutine.wrap(PYUSJC_fake_script)()
-local function CMBED_fake_script() -- TextLabel_7.LocalScript 
+coroutine.wrap(BJRRAR_fake_script)()
+local function QZVP_fake_script() -- TextLabel_7.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_7)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -1439,8 +1538,8 @@ local function CMBED_fake_script() -- TextLabel_7.LocalScript
 		counter = counter + 0.001
 	end
 end
-coroutine.wrap(CMBED_fake_script)()
-local function ABFA_fake_script() -- hp.LocalScript 
+coroutine.wrap(QZVP_fake_script)()
+local function GIVVKCH_fake_script() -- hp.LocalScript 
 	local script = Instance.new('LocalScript', hp)
 
 	local Players = game:GetService("Players")
@@ -1457,8 +1556,8 @@ local function ABFA_fake_script() -- hp.LocalScript
 	end)
 	
 end
-coroutine.wrap(ABFA_fake_script)()
-local function EOYPNVT_fake_script() -- hp.pos 
+coroutine.wrap(GIVVKCH_fake_script)()
+local function MZDLB_fake_script() -- hp.pos 
 	local script = Instance.new('LocalScript', hp)
 
 	local label = script.Parent
@@ -1467,51 +1566,8 @@ local function EOYPNVT_fake_script() -- hp.pos
 	label.Position = UDim2.new(0.5, 0, 0.5, 0)
 	
 end
-coroutine.wrap(EOYPNVT_fake_script)()
-local function ZYZAW_fake_script() -- ImageButton.rgb 
-	local script = Instance.new('LocalScript', ImageButton)
-
-	local Players = game:GetService("Players")
-	local Player = Players.LocalPlayer
-	local PlayerGui = Player:WaitForChild("PlayerGui")
-	
-	-- Create ScreenGui
-	local screenGui = Instance.new("ScreenGui")
-	screenGui.Name = "RainbowGui"
-	screenGui.ResetOnSpawn = false
-	screenGui.Parent = PlayerGui
-	
-	-- Create UIGradient
-	local gradient = Instance.new("UIGradient")
-	gradient.Color = ColorSequence.new{
-		ColorSequenceKeypoint.new(0, Color3.fromHSV(0, 1, 0.7)),  -- Darker color (V = 0.5)
-		ColorSequenceKeypoint.new(1, Color3.fromHSV(0.1, 1, 0.7)) -- Darker color (V = 0.5)
-	}
-	gradient.Parent = script.Parent
-	
-	-- Zigzag function for smooth hue bouncing
-	local function zigzag(x)
-		return math.acos(math.cos(x * math.pi)) / math.pi
-	end
-	
-	-- Animate gradient
-	local counter = 0
-	while true do
-		task.wait(0.05)
-		local hue = zigzag(counter)
-	
-		-- Apply darker colors by adjusting brightness (V)
-		gradient.Color = ColorSequence.new{
-			ColorSequenceKeypoint.new(0, Color3.fromHSV(hue, 1, 0.7)),  -- Darker color (V = 0.5)
-			ColorSequenceKeypoint.new(1, Color3.fromHSV((hue + 0.1) % 1, 1, 0.7)) -- Darker color (V = 0.5)
-		}
-	
-		counter += 0.01
-	end
-	
-end
-coroutine.wrap(ZYZAW_fake_script)()
-local function VOPXFDS_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(MZDLB_fake_script)()
+local function HIIFNJT_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local toggle = false -- move it outside the function
@@ -1526,22 +1582,22 @@ local function VOPXFDS_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(VOPXFDS_fake_script)()
-local function USMSCUN_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(HIIFNJT_fake_script)()
+local function RCIDY_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local ui = Instance.new("UICorner")
 	ui.CornerRadius = UDim.new(0.1, 0)
 	ui.Parent = script.Parent
 end
-coroutine.wrap(USMSCUN_fake_script)()
-local function BLZGWB_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(RCIDY_fake_script)()
+local function HUJBG_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(BLZGWB_fake_script)()
-local function XMCOMN_fake_script() -- mainmod.LocalScript 
+coroutine.wrap(HUJBG_fake_script)()
+local function ETJWOG_fake_script() -- mainmod.LocalScript 
 	local script = Instance.new('LocalScript', mainmod)
 
 	local Lighting = game:GetService("Lighting")
@@ -1583,8 +1639,17 @@ local function XMCOMN_fake_script() -- mainmod.LocalScript
 	ui:GetPropertyChangedSignal("Visible"):Connect(updateEffects)
 	
 end
-coroutine.wrap(XMCOMN_fake_script)()
-local function WEAIEFD_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ETJWOG_fake_script)()
+local function YHGML_fake_script() -- mainmod.uictrl 
+	local script = Instance.new('LocalScript', mainmod)
+
+	local uicorner = Instance.new("UICorner")
+	uicorner.CornerRadius = UDim.new(0, 3)
+	uicorner.Parent = script.Parent
+	
+end
+coroutine.wrap(YHGML_fake_script)()
+local function BLTDKK_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -1609,8 +1674,8 @@ local function WEAIEFD_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(WEAIEFD_fake_script)()
-local function JXQFZ_fake_script() -- fps.LocalScript 
+coroutine.wrap(BLTDKK_fake_script)()
+local function AOEXEG_fake_script() -- fps.LocalScript 
 	local script = Instance.new('LocalScript', fps)
 
 	local label = script.Parent
@@ -1632,20 +1697,20 @@ local function JXQFZ_fake_script() -- fps.LocalScript
 	end)
 	
 end
-coroutine.wrap(JXQFZ_fake_script)()
-local function QDUC_fake_script() -- name.LocalScript 
+coroutine.wrap(AOEXEG_fake_script)()
+local function AUPIEW_fake_script() -- name.LocalScript 
 	local script = Instance.new('LocalScript', name)
 
 	script.Parent.Text = ("UserID: "..game.Players.LocalPlayer.Name)
 end
-coroutine.wrap(QDUC_fake_script)()
-local function PHZWBWX_fake_script() -- place.LocalScript 
+coroutine.wrap(AUPIEW_fake_script)()
+local function PBVOA_fake_script() -- place.LocalScript 
 	local script = Instance.new('LocalScript', place)
 
 	script.Parent.Text = ("PlaceID: "..game.PlaceId)
 end
-coroutine.wrap(PHZWBWX_fake_script)()
-local function VKXAV_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(PBVOA_fake_script)()
+local function YHMDQUR_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local TPService = game:GetService("TeleportService")
@@ -1656,8 +1721,8 @@ local function VKXAV_fake_script() -- TextButton_2.LocalScript
 		TPService:TeleportToPlaceInstance(placeId, jobId, game.Players.LocalPlayer)
 	end)
 end
-coroutine.wrap(VKXAV_fake_script)()
-local function XMFC_fake_script() -- utililty.LocalScript 
+coroutine.wrap(YHMDQUR_fake_script)()
+local function CXZGT_fake_script() -- utililty.LocalScript 
 	local script = Instance.new('LocalScript', utililty)
 
 	local open = false
@@ -1676,14 +1741,14 @@ local function XMFC_fake_script() -- utililty.LocalScript
 	end)
 	
 end
-coroutine.wrap(XMFC_fake_script)()
-local function AALAE_fake_script() -- utililty.font 
+coroutine.wrap(CXZGT_fake_script)()
+local function FYPHT_fake_script() -- utililty.font 
 	local script = Instance.new('LocalScript', utililty)
 
 	script.Parent.Font = Enum.Font.Jura
 end
-coroutine.wrap(AALAE_fake_script)()
-local function TATA_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(FYPHT_fake_script)()
+local function LFIEKZJ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local open = true
@@ -1704,14 +1769,14 @@ local function TATA_fake_script() -- TextButton_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(TATA_fake_script)()
-local function EODX_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(LFIEKZJ_fake_script)()
+local function WLWRA_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(EODX_fake_script)()
-local function RKVYG_fake_script() -- TextButton_3.uictrl 
+coroutine.wrap(WLWRA_fake_script)()
+local function DXWHONX_fake_script() -- TextButton_3.uictrl 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local uicorner = Instance.new("UICorner")
@@ -1719,8 +1784,8 @@ local function RKVYG_fake_script() -- TextButton_3.uictrl
 	uicorner.Parent = script.Parent
 	
 end
-coroutine.wrap(RKVYG_fake_script)()
-local function WYPQ_fake_script() -- Frame_4.uictrl 
+coroutine.wrap(DXWHONX_fake_script)()
+local function EZTLMP_fake_script() -- Frame_4.uictrl 
 	local script = Instance.new('LocalScript', Frame_4)
 
 	local uicorner = Instance.new("UICorner")
@@ -1728,8 +1793,8 @@ local function WYPQ_fake_script() -- Frame_4.uictrl
 	uicorner.Parent = script.Parent
 	
 end
-coroutine.wrap(WYPQ_fake_script)()
-local function PSAFKMJ_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(EZTLMP_fake_script)()
+local function HDGNK_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local button = script.Parent
@@ -1786,8 +1851,8 @@ local function PSAFKMJ_fake_script() -- TextButton_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(PSAFKMJ_fake_script)()
-local function YULK_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(HDGNK_fake_script)()
+local function LOUIH_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1854,8 +1919,8 @@ local function YULK_fake_script() -- TextButton_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(YULK_fake_script)()
-local function MINOP_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(LOUIH_fake_script)()
+local function XSZC_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local button = script.Parent
@@ -1916,8 +1981,8 @@ local function MINOP_fake_script() -- TextButton_6.LocalScript
 	end)
 	
 end
-coroutine.wrap(MINOP_fake_script)()
-local function KZQNXMM_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(XSZC_fake_script)()
+local function VBJJY_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	local corner = Instance.new("UICorner")
@@ -1950,8 +2015,8 @@ local function KZQNXMM_fake_script() -- TextBox.LocalScript
 	end)
 	
 end
-coroutine.wrap(KZQNXMM_fake_script)()
-local function DKPBVS_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(VBJJY_fake_script)()
+local function XAWBMN_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	local TweenService = game:GetService("TweenService")
@@ -2013,8 +2078,8 @@ local function DKPBVS_fake_script() -- TextButton_7.LocalScript
 	end)
 	
 end
-coroutine.wrap(DKPBVS_fake_script)()
-local function IMIJ_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(XAWBMN_fake_script)()
+local function MMHSG_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local TweenService = game:GetService("TweenService")
@@ -2116,8 +2181,8 @@ local function IMIJ_fake_script() -- TextButton_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(IMIJ_fake_script)()
-local function ELXMIP_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(MMHSG_fake_script)()
+local function SIDNOTC_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	local gameCamera = workspace.CurrentCamera
@@ -2233,8 +2298,8 @@ local function ELXMIP_fake_script() -- TextButton_9.LocalScript
 	end)
 	
 end
-coroutine.wrap(ELXMIP_fake_script)()
-local function HMVX_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(SIDNOTC_fake_script)()
+local function IIZWJ_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	local Players = game:GetService("Players")
@@ -2284,8 +2349,8 @@ local function HMVX_fake_script() -- TextButton_10.LocalScript
 	end)
 	
 end
-coroutine.wrap(HMVX_fake_script)()
-local function KOQUUDR_fake_script() -- render.LocalScript 
+coroutine.wrap(IIZWJ_fake_script)()
+local function VUQAFH_fake_script() -- render.LocalScript 
 	local script = Instance.new('LocalScript', render)
 
 	local open = false
@@ -2304,14 +2369,14 @@ local function KOQUUDR_fake_script() -- render.LocalScript
 	end)
 	
 end
-coroutine.wrap(KOQUUDR_fake_script)()
-local function GWCSFLW_fake_script() -- render.font 
+coroutine.wrap(VUQAFH_fake_script)()
+local function JOLH_fake_script() -- render.font 
 	local script = Instance.new('LocalScript', render)
 
 	script.Parent.Font = Enum.Font.Jura
 end
-coroutine.wrap(GWCSFLW_fake_script)()
-local function XVHBN_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(JOLH_fake_script)()
+local function DGXJZRF_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	local open = true
@@ -2332,14 +2397,14 @@ local function XVHBN_fake_script() -- TextButton_11.LocalScript
 	end)
 	
 end
-coroutine.wrap(XVHBN_fake_script)()
-local function AOILZPB_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(DGXJZRF_fake_script)()
+local function XGTJZ_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(AOILZPB_fake_script)()
-local function YOTP_fake_script() -- TextButton_11.uictrl 
+coroutine.wrap(XGTJZ_fake_script)()
+local function DTQGUO_fake_script() -- TextButton_11.uictrl 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	local uicorner = Instance.new("UICorner")
@@ -2347,8 +2412,8 @@ local function YOTP_fake_script() -- TextButton_11.uictrl
 	uicorner.Parent = script.Parent
 	
 end
-coroutine.wrap(YOTP_fake_script)()
-local function LXPV_fake_script() -- Frame_5.uictrl 
+coroutine.wrap(DTQGUO_fake_script)()
+local function DPDWK_fake_script() -- Frame_5.uictrl 
 	local script = Instance.new('LocalScript', Frame_5)
 
 	local uicorner = Instance.new("UICorner")
@@ -2356,8 +2421,8 @@ local function LXPV_fake_script() -- Frame_5.uictrl
 	uicorner.Parent = script.Parent
 	
 end
-coroutine.wrap(LXPV_fake_script)()
-local function JCPXYZN_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(DPDWK_fake_script)()
+local function EYQYAM_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	local button = script.Parent
@@ -2380,8 +2445,8 @@ local function JCPXYZN_fake_script() -- TextButton_12.LocalScript
 	end)
 	
 end
-coroutine.wrap(JCPXYZN_fake_script)()
-local function EBABZHR_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(EYQYAM_fake_script)()
+local function VJXYFSM_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	--// UI button toggle (in your GUI)
@@ -2451,126 +2516,123 @@ local function EBABZHR_fake_script() -- TextButton_13.LocalScript
 	end)
 	
 end
-coroutine.wrap(EBABZHR_fake_script)()
-local function QYJXIF_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(VJXYFSM_fake_script)()
+local function GUKPR_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
+	-- Local player and camera setup
+	local LocalPlayer = game.Players.LocalPlayer
 	local Camera = workspace.CurrentCamera
-	local LocalPlayer = Players.LocalPlayer
+	local WorldToViewportPoint = Camera.WorldToViewportPoint
 	
-	local button = LocalPlayer.PlayerGui:WaitForChild("ScreenGui"):WaitForChild("ToggleButton")
+	-- GUI button (assumes this LocalScript is inside the button)
+	local ToggleButton = script.Parent
 	
-	local blueColor = Color3.fromRGB(22, 144, 197)
-	local greyColor = Color3.fromRGB(36, 36, 36)
-	
+	-- ESP State
 	local ESPEnabled = false
-	local boxes = {}
+	local Connections = {}
 	
-	-- Create ESP box
-	local function createBox(player)
-		local box = Drawing.new("Square")
-		box.Thickness = 2
-		box.Color = blueColor
-		box.Transparency = 1
-		box.Visible = false
-		boxes[player] = box
-	end
+	-- Offsets for head and legs
+	local HeadOffset = Vector3.new(0, 3, 0)
+	local LegOffset = Vector3.new(0, 3, 0)
 	
-	-- Clean up box
-	Players.PlayerRemoving:Connect(function(player)
-		if boxes[player] then
-			boxes[player]:Remove()
-			boxes[player] = nil
-		end
-	end)
+	-- Box outline drawing object
+	local BoxOutline = Drawing.new("Square")
+	BoxOutline.Visible = false
+	BoxOutline.Color = Color3.new(0, 0, 0)
+	BoxOutline.Thickness = 2
+	BoxOutline.Transparency = 1
+	BoxOutline.Filled = false
 	
-	-- Toggle function
-	local function updateButtonUI()
-		button.BackgroundColor3 = ESPEnabled and Color3.fromRGB(22, 144, 197) or Color3.fromRGB(36, 36, 36)
-	end
+	-- Inner box drawing object
+	local Box = Drawing.new("Square")
+	Box.Visible = false
+	Box.Color = Color3.new(1, 1, 1)
+	Box.Thickness = 1
+	Box.Transparency = 1
+	Box.Filled = false
 	
-	button.MouseButton1Click:Connect(function()
-		ESPEnabled = not ESPEnabled
-		updateButtonUI()
-		if not ESPEnabled then
-			for _, box in pairs(boxes) do
-				box.Visible = false
-			end
-		end
-	end)
+	-- ESP Update Function
+	local function UpdateESP()
+		for _, v in ipairs(game.Players:GetPlayers()) do
+			if v ~= LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("HumanoidRootPart") and v.Character.Humanoid.Health > 0 then
+				local RootPart = v.Character.HumanoidRootPart
+				local Head = v.Character.Head
 	
-	-- ESP Loop
-	RunService.RenderStepped:Connect(function()
-		if not ESPEnabled then return end
+				local RootPosition, OnScreen = Camera:WorldToViewportPoint(RootPart.Position)
+				local HeadPosition = Camera:WorldToViewportPoint(Head.Position + HeadOffset)
+				local LegPosition = Camera:WorldToViewportPoint(RootPart.Position - LegOffset)
 	
-		for _, player in pairs(Players:GetPlayers()) do
-			if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
-				if not boxes[player] then
-					createBox(player)
-				end
-	
-				local hrp = player.Character.HumanoidRootPart
-				local pos, onScreen = Camera:WorldToViewportPoint(hrp.Position)
-				local box = boxes[player]
-	
-				if onScreen then
-					local distance = (Camera.CFrame.Position - hrp.Position).Magnitude
-					local scale = 1 / distance * 100
-					local width = 50 * scale
-					local height = 100 * scale
-	
-					box.Size = Vector2.new(width, height)
-					box.Position = Vector2.new(pos.X - width/2, pos.Y - height/2)
-					box.Visible = true
-				else
-					box.Visible = false
-				end
-			elseif boxes[player] then
-				boxes[player].Visible = false
-			end
-		end
-	end)
-	
-	-- Set initial button color
-	updateButtonUI()
-	
-end
-coroutine.wrap(QYJXIF_fake_script)()
-local function AXGOOA_fake_script() -- TextButton_15.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_15)
-
-	local button = script.Parent
-	local toggle = false
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	
-	button.MouseButton1Click:Connect(function()
-		toggle = not toggle
-	
-		if toggle then
-			button.BackgroundColor3 = Color3.fromRGB(22, 144, 197)
-	
-			-- Start running the loop
-			task.spawn(function()
-				while toggle do
-					if LocalPlayer:FindFirstChild("leaderstats") then
-						LocalPlayer.leaderstats.Glove.Value = "Diddy"
-						LocalPlayer.leaderstats.Slaps.Value = 69696969696969696
+				if OnScreen then
+					if v.TeamColor == LocalPlayer.TeamColor then
+						-- Teammates - green
+						Box.Color = Color3.new(0, 1, 0)
+						BoxOutline.Color = Color3.new(0, 1, 0)
+					else
+						-- Enemies - red
+						Box.Color = Color3.new(1, 0, 0)
+						BoxOutline.Color = Color3.new(1, 0, 0)
 					end
-					task.wait() -- prevent freezing
+	
+					local BoxHeight = HeadPosition.Y - LegPosition.Y
+					local BoxWidth = BoxHeight / 2
+	
+					BoxOutline.Size = Vector2.new(BoxWidth, BoxHeight)
+					Box.Size = Vector2.new(BoxWidth, BoxHeight)
+	
+					local BoxX = RootPosition.X - (BoxOutline.Size.X / 2)
+					local BoxY = RootPosition.Y - BoxOutline.Size.Y
+	
+					BoxOutline.Position = Vector2.new(BoxX, BoxY)
+					Box.Position = Vector2.new(BoxX, BoxY)
+	
+					BoxOutline.Visible = true
+					Box.Visible = true
+				else
+					BoxOutline.Visible = false
+					Box.Visible = false
 				end
-			end)
+			else
+				BoxOutline.Visible = false
+				Box.Visible = false
+			end
+		end
+	end
+	
+	-- Enable ESP
+	local function EnableESP()
+		if ESPEnabled then return end
+		ESPEnabled = true
+		table.insert(Connections, game:GetService("RunService").RenderStepped:Connect(UpdateESP))
+	end
+	
+	-- Disable ESP
+	local function DisableESP()
+		if not ESPEnabled then return end
+		ESPEnabled = false
+		for _, conn in ipairs(Connections) do
+			conn:Disconnect()
+		end
+		Connections = {}
+		BoxOutline.Visible = false
+		Box.Visible = false
+	end
+	
+	-- Toggle on button click
+	ToggleButton.MouseButton1Click:Connect(function()
+		if ESPEnabled then
+			DisableESP()
+			ToggleButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 		else
-			button.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+			EnableESP()
+			ToggleButton.BackgroundColor3 = Color3.fromRGB(22, 144, 197)
 		end
 	end)
 	
 end
-coroutine.wrap(AXGOOA_fake_script)()
-local function CCCALGH_fake_script() -- TextButton_16.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_16)
+coroutine.wrap(GUKPR_fake_script)()
+local function VFUMZR_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -2654,9 +2716,9 @@ local function CCCALGH_fake_script() -- TextButton_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(CCCALGH_fake_script)()
-local function ECXQYX_fake_script() -- TextButton_17.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_17)
+coroutine.wrap(VFUMZR_fake_script)()
+local function SSAWTJ_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
 
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
@@ -2785,9 +2847,9 @@ local function ECXQYX_fake_script() -- TextButton_17.LocalScript
 	
 	
 end
-coroutine.wrap(ECXQYX_fake_script)()
-local function KKWS_fake_script() -- TextButton_18.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_18)
+coroutine.wrap(SSAWTJ_fake_script)()
+local function TZSAR_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local btn = script.Parent
@@ -2809,9 +2871,9 @@ local function KKWS_fake_script() -- TextButton_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(KKWS_fake_script)()
-local function EACQNLK_fake_script() -- TextButton_19.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_19)
+coroutine.wrap(TZSAR_fake_script)()
+local function FEEIB_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
 
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
@@ -2910,8 +2972,8 @@ local function EACQNLK_fake_script() -- TextButton_19.LocalScript
 	end)
 	
 end
-coroutine.wrap(EACQNLK_fake_script)()
-local function TLMY_fake_script() -- World.LocalScript 
+coroutine.wrap(FEEIB_fake_script)()
+local function OUYNQK_fake_script() -- World.LocalScript 
 	local script = Instance.new('LocalScript', World)
 
 	local open = false
@@ -2930,15 +2992,15 @@ local function TLMY_fake_script() -- World.LocalScript
 	end)
 	
 end
-coroutine.wrap(TLMY_fake_script)()
-local function XLHJQKN_fake_script() -- World.font 
+coroutine.wrap(OUYNQK_fake_script)()
+local function XOYGVB_fake_script() -- World.font 
 	local script = Instance.new('LocalScript', World)
 
 	script.Parent.Font = Enum.Font.Jura
 end
-coroutine.wrap(XLHJQKN_fake_script)()
-local function IAPDTE_fake_script() -- TextButton_20.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_20)
+coroutine.wrap(XOYGVB_fake_script)()
+local function UHBSN_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
 
 	local open = true
 	local button = script.Parent
@@ -2958,23 +3020,23 @@ local function IAPDTE_fake_script() -- TextButton_20.LocalScript
 	end)
 	
 end
-coroutine.wrap(IAPDTE_fake_script)()
-local function OYWDEE_fake_script() -- TextButton_20.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_20)
+coroutine.wrap(UHBSN_fake_script)()
+local function UVVDGOX_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(OYWDEE_fake_script)()
-local function YGZK_fake_script() -- TextButton_20.uictrl 
-	local script = Instance.new('LocalScript', TextButton_20)
+coroutine.wrap(UVVDGOX_fake_script)()
+local function BDPZV_fake_script() -- TextButton_19.uictrl 
+	local script = Instance.new('LocalScript', TextButton_19)
 
 	local uicorner = Instance.new("UICorner")
 	uicorner.CornerRadius = UDim.new(0, 3)
 	uicorner.Parent = script.Parent
 	
 end
-coroutine.wrap(YGZK_fake_script)()
-local function WXYJLJJ_fake_script() -- Frame_6.uictrl 
+coroutine.wrap(BDPZV_fake_script)()
+local function WJIEXBK_fake_script() -- Frame_6.uictrl 
 	local script = Instance.new('LocalScript', Frame_6)
 
 	local uicorner = Instance.new("UICorner")
@@ -2982,9 +3044,9 @@ local function WXYJLJJ_fake_script() -- Frame_6.uictrl
 	uicorner.Parent = script.Parent
 	
 end
-coroutine.wrap(WXYJLJJ_fake_script)()
-local function RHSB_fake_script() -- TextButton_21.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_21)
+coroutine.wrap(WJIEXBK_fake_script)()
+local function VHRAGW_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -3053,9 +3115,9 @@ local function RHSB_fake_script() -- TextButton_21.LocalScript
 	end)
 	
 end
-coroutine.wrap(RHSB_fake_script)()
-local function DSJF_fake_script() -- TextButton_22.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_22)
+coroutine.wrap(VHRAGW_fake_script)()
+local function DLEHWN_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
 
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -3081,9 +3143,9 @@ local function DSJF_fake_script() -- TextButton_22.LocalScript
 	end)
 	
 end
-coroutine.wrap(DSJF_fake_script)()
-local function QLQFMKO_fake_script() -- TextButton_23.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_23)
+coroutine.wrap(DLEHWN_fake_script)()
+local function NQXU_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
 
 	local button = script.Parent
 	local Workspace = game:GetService("Workspace")
@@ -3108,9 +3170,9 @@ local function QLQFMKO_fake_script() -- TextButton_23.LocalScript
 	end)
 	
 end
-coroutine.wrap(QLQFMKO_fake_script)()
-local function USXO_fake_script() -- TextButton_24.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_24)
+coroutine.wrap(NQXU_fake_script)()
+local function DZRF_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
 
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -3145,9 +3207,9 @@ local function USXO_fake_script() -- TextButton_24.LocalScript
 	end)
 	
 end
-coroutine.wrap(USXO_fake_script)()
-local function PTSQWD_fake_script() -- TextButton_25.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_25)
+coroutine.wrap(DZRF_fake_script)()
+local function PKPB_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -3195,16 +3257,16 @@ local function PTSQWD_fake_script() -- TextButton_25.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PTSQWD_fake_script)()
-local function EGRXQQ_fake_script() -- TextButton_25.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_25)
+coroutine.wrap(PKPB_fake_script)()
+local function TVRXBZT_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
 
 	local value = Instance.new("IntValue")
 	value.Parent = script.Parent
 	value.Name = "fov"
 end
-coroutine.wrap(EGRXQQ_fake_script)()
-local function MBPVAVH_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(TVRXBZT_fake_script)()
+local function FCQP_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	local boarder = Instance.new("UICorner")
@@ -3235,9 +3297,9 @@ local function MBPVAVH_fake_script() -- TextBox_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(MBPVAVH_fake_script)()
-local function VUSHS_fake_script() -- TextButton_26.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_26)
+coroutine.wrap(FCQP_fake_script)()
+local function PAZFLP_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -3308,8 +3370,8 @@ local function VUSHS_fake_script() -- TextButton_26.LocalScript
 	end)
 	
 end
-coroutine.wrap(VUSHS_fake_script)()
-local function PEPEPAC_fake_script() -- combat.LocalScript 
+coroutine.wrap(PAZFLP_fake_script)()
+local function SRVXQ_fake_script() -- combat.LocalScript 
 	local script = Instance.new('LocalScript', combat)
 
 	local open = false
@@ -3328,15 +3390,15 @@ local function PEPEPAC_fake_script() -- combat.LocalScript
 	end)
 	
 end
-coroutine.wrap(PEPEPAC_fake_script)()
-local function ZEQYID_fake_script() -- combat.font 
+coroutine.wrap(SRVXQ_fake_script)()
+local function ASAB_fake_script() -- combat.font 
 	local script = Instance.new('LocalScript', combat)
 
 	script.Parent.Font = Enum.Font.Jura
 end
-coroutine.wrap(ZEQYID_fake_script)()
-local function OTNGKN_fake_script() -- TextButton_27.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_27)
+coroutine.wrap(ASAB_fake_script)()
+local function QEVH_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
 
 	local open = true
 	local button = script.Parent
@@ -3361,23 +3423,23 @@ local function OTNGKN_fake_script() -- TextButton_27.LocalScript
 	
 	
 end
-coroutine.wrap(OTNGKN_fake_script)()
-local function YQFZ_fake_script() -- TextButton_27.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_27)
+coroutine.wrap(QEVH_fake_script)()
+local function JEYS_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(YQFZ_fake_script)()
-local function VJTZ_fake_script() -- TextButton_27.uictrl 
-	local script = Instance.new('LocalScript', TextButton_27)
+coroutine.wrap(JEYS_fake_script)()
+local function MGJT_fake_script() -- TextButton_26.uictrl 
+	local script = Instance.new('LocalScript', TextButton_26)
 
 	local uicorner = Instance.new("UICorner")
 	uicorner.CornerRadius = UDim.new(0, 3)
 	uicorner.Parent = script.Parent
 	
 end
-coroutine.wrap(VJTZ_fake_script)()
-local function UWXG_fake_script() -- Frame_7.uictrl 
+coroutine.wrap(MGJT_fake_script)()
+local function HRSKGY_fake_script() -- Frame_7.uictrl 
 	local script = Instance.new('LocalScript', Frame_7)
 
 	local uicorner = Instance.new("UICorner")
@@ -3385,9 +3447,9 @@ local function UWXG_fake_script() -- Frame_7.uictrl
 	uicorner.Parent = script.Parent
 	
 end
-coroutine.wrap(UWXG_fake_script)()
-local function AZUM_fake_script() -- TextButton_28.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_28)
+coroutine.wrap(HRSKGY_fake_script)()
+local function UBNOA_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
 
 	local button = script.Parent
 	local toggle = false
@@ -3424,9 +3486,9 @@ local function AZUM_fake_script() -- TextButton_28.LocalScript
 	end)
 	
 end
-coroutine.wrap(AZUM_fake_script)()
-local function ZQBPWA_fake_script() -- TextButton_29.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_29)
+coroutine.wrap(UBNOA_fake_script)()
+local function VSZKHX_fake_script() -- TextButton_28.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_28)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -3490,17 +3552,17 @@ local function ZQBPWA_fake_script() -- TextButton_29.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZQBPWA_fake_script)()
-local function YCEKD_fake_script() -- TextButton_29.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_29)
+coroutine.wrap(VSZKHX_fake_script)()
+local function PDCVZ_fake_script() -- TextButton_28.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_28)
 
 	local value = Instance.new("IntValue")
 	value.Parent = script.Parent
 	value.Name = "senc"
 	value.Value = 25
 end
-coroutine.wrap(YCEKD_fake_script)()
-local function HBFGQC_fake_script() -- TextBox_3.LocalScript 
+coroutine.wrap(PDCVZ_fake_script)()
+local function HXVORQU_fake_script() -- TextBox_3.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_3)
 
 	local boarder = Instance.new("UICorner")
@@ -3531,9 +3593,9 @@ local function HBFGQC_fake_script() -- TextBox_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(HBFGQC_fake_script)()
-local function ETJEL_fake_script() -- TextButton_30.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_30)
+coroutine.wrap(HXVORQU_fake_script)()
+local function DPZZ_fake_script() -- TextButton_29.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_29)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -3648,9 +3710,9 @@ local function ETJEL_fake_script() -- TextButton_30.LocalScript
 	toggleButton.BackgroundColor3 = greyColor
 	
 end
-coroutine.wrap(ETJEL_fake_script)()
-local function UKWWHHA_fake_script() -- TextButton_31.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_31)
+coroutine.wrap(DPZZ_fake_script)()
+local function QDHBZ_fake_script() -- TextButton_30.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_30)
 
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -3736,9 +3798,9 @@ local function UKWWHHA_fake_script() -- TextButton_31.LocalScript
 	end)
 	
 end
-coroutine.wrap(UKWWHHA_fake_script)()
-local function JEUFC_fake_script() -- TextButton_32.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_32)
+coroutine.wrap(QDHBZ_fake_script)()
+local function IVETGC_fake_script() -- TextButton_31.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_31)
 
 	local player = game.Players.LocalPlayer
 	local VirtualInputManager = game:GetService("VirtualInputManager")
@@ -3763,9 +3825,9 @@ local function JEUFC_fake_script() -- TextButton_32.LocalScript
 	end)
 	
 end
-coroutine.wrap(JEUFC_fake_script)()
-local function YWMZTI_fake_script() -- TextButton_33.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_33)
+coroutine.wrap(IVETGC_fake_script)()
+local function UQABTO_fake_script() -- TextButton_32.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_32)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -3835,137 +3897,4 @@ local function YWMZTI_fake_script() -- TextButton_33.LocalScript
 	updateButton()
 	
 end
-coroutine.wrap(YWMZTI_fake_script)()
-local function OQJV_fake_script() -- mainmod.uictrl 
-	local script = Instance.new('LocalScript', mainmod)
-
-	local uicorner = Instance.new("UICorner")
-	uicorner.CornerRadius = UDim.new(0, 3)
-	uicorner.Parent = script.Parent
-	
-end
-coroutine.wrap(OQJV_fake_script)()
-local function JQLM_fake_script() -- _6403373529.verifyer 
-	local script = Instance.new('LocalScript', _6403373529)
-
-	local detectorprop = Instance.new("Folder")
-	detectorprop.Parent = game.Players.LocalPlayer
-	detectorprop.Name = "detectorprop"
-end
-coroutine.wrap(JQLM_fake_script)()
-local function FNDLOPG_fake_script() -- _6403373529.priv 
-	local script = Instance.new('LocalScript', _6403373529)
-
-	local TextChatService = game:GetService("TextChatService")
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	local gui = script.Parent
-	
-	TextChatService.OnIncomingMessage = function(message)
-		if message.TextSource and message.TextSource.UserId == LocalPlayer.UserId then
-			local msg = message.Text:lower()
-			if msg == ";byfron defualt" then
-				print("hm... " .. LocalPlayer.Name)
-				gui.mainmod.Dev.Visible = true
-				gui.mainmod.misc.Visible = true
-			end
-		end
-	end
-	
-end
-coroutine.wrap(FNDLOPG_fake_script)()
-local function DTOSTG_fake_script() -- _6403373529.injected 
-	local script = Instance.new('LocalScript', _6403373529)
-
-	local StarterGui = game:GetService("StarterGui")
-	
-	if script.Parent.Parent["6403373529"].Enabled == true then
-		pcall(function()
-			StarterGui:SetCore("SendNotification", {
-				Title = "APEX",
-				Text = "Apex has been injected!",
-				Duration = 5
-			})
-		end)
-		wait(0.1)
-	end
-end
-coroutine.wrap(DTOSTG_fake_script)()
-local function EABZQJ_fake_script() -- _6403373529.bind 
-	local script = Instance.new('LocalScript', _6403373529)
-
-	local UserInputService = game:GetService("UserInputService")
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	
-	local player = Players.LocalPlayer
-	local camera = workspace.CurrentCamera
-	
-	local gui = script.Parent.mainmod -- your UI here
-	local forceMouse = false
-	
-	-- Function to unlock and show mouse
-	local function unlockMouse()
-		UserInputService.MouseIconEnabled = true
-		UserInputService.MouseBehavior = Enum.MouseBehavior.Default
-	end
-	
-	-- RunService loop to constantly force mouse settings
-	RunService.RenderStepped:Connect(function()
-		if forceMouse and gui.Visible then
-			unlockMouse()
-		end
-	end)
-	
-	-- Toggle GUI + mouse unlock on LeftAlt
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-		if not gameProcessed and input.KeyCode == Enum.KeyCode.LeftAlt then
-			gui.Visible = not gui.Visible
-			forceMouse = gui.Visible
-			if forceMouse then
-				unlockMouse()
-			end
-		end
-	end)
-	
-	-- Reset mouse when character respawns
-	player.CharacterAdded:Connect(function()
-		wait(1)
-		if forceMouse then
-			unlockMouse()
-		end
-	end)
-	
-end
-coroutine.wrap(EABZQJ_fake_script)()
-local function EIBBQKN_fake_script() -- _6403373529.alltop 
-	local script = Instance.new('LocalScript', _6403373529)
-
-	local gui = script.Parent -- Put this script inside your ScreenGui
-	
-	-- Apply global ZIndex and visibility settings
-	local function applyTopLayerSettings(uiElement)
-		if uiElement:IsA("GuiObject") then
-			uiElement.ZIndex = 999999
-			if uiElement:IsA("TextLabel") or uiElement:IsA("TextButton") or uiElement:IsA("TextBox") then
-				uiElement.TextTransparency = 0
-			end
-			if uiElement:IsA("ImageLabel") or uiElement:IsA("ImageButton") then
-				uiElement.ImageTransparency = 0
-			end
-		end
-	end
-	
-	-- Apply to all descendants
-	for _, item in ipairs(gui:GetDescendants()) do
-		applyTopLayerSettings(item)
-	end
-	
-	-- Force top-level GUI behavior
-	gui.ResetOnSpawn = false
-	gui.ZIndexBehavior = Enum.ZIndexBehavior.Global
-	gui.DisplayOrder = 999999
-	gui.IgnoreGuiInset = true
-	
-end
-coroutine.wrap(EIBBQKN_fake_script)()
+coroutine.wrap(UQABTO_fake_script)()
