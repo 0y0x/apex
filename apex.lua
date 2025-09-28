@@ -1,8 +1,33 @@
-if game.PlaceId == "6403373529" or "12459609433302" then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0y0x/apex/refs/heads/main/6403373529.lua", true))()
-end
-if game.PlaceId == "6872265039" then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0y0x/apex/refs/heads/main/6872265039.lua",true))()
-else
-	print("Ivalid game, this game dose not have a script for it!")
-end
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local LocalPlayer = Players.LocalPlayer
+
+-- Wait until knit/remotes are ready
+local Knit
+repeat
+    local success, result = pcall(function()
+        return require(LocalPlayer.PlayerScripts.TS.knit)
+    end)
+    if success then
+        Knit = result
+    else
+        task.wait()
+    end
+until Knit
+
+-- Grab SprintController
+local SprintController
+repeat
+    task.wait()
+    SprintController = Knit.Controllers and Knit.Controllers.SprintController
+until SprintController
+
+-- Auto sprint loop
+task.spawn(function()
+    while task.wait(0.5) do
+        if SprintController then
+            SprintController:startSprinting()
+        end
+    end
+end)
